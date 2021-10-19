@@ -7,5 +7,5 @@ conversation = 'Finn exclaims to Jake, "Algebraic!"';
 goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"';
 /*badStr = 'Finn responds, "Let's go!"';*/
 //example: remove double quotes
-var myStr = '<a href="http://www.example.com/" target="_blank">Link</a>';
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 console.log(myStr)
