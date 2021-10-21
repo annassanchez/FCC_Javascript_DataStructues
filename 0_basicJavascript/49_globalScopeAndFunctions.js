@@ -1,3 +1,5 @@
+//variables declared with var are automatically created in global scope
+//that means that this variables are available through the entire code
 //example: define myGlobal outsie any function
 //inside another function inside oopsGlobal
 // Declare the myGlobal variable below this line
