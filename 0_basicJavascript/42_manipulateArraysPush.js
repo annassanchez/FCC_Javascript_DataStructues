@@ -8,3 +8,4 @@ arr2.push(["happy", "joy"]); // arr2 = ["Stimpson", "J", "cat", ["happy", "joy"]
 // Setup
 var myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog", 3])
+console.log(myArray);
