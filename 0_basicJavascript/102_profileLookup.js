@@ -41,4 +41,4 @@ const contacts = [
     // Only change code above this line
   }
   
-  lookUpProfile("Akira", "likes");
+  console.log(lookUpProfile("Akira", "number"));
