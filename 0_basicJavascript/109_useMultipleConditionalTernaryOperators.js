@@ -17,6 +17,11 @@ function findGreaterOrEqual(a, b) {
       : (a > b) ? "a is greater" 
       : "b is greater";
   }
+//here's even a more condensed solution
+function findGreaterOrEqual(a, b) {
+    return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
+  }
+//checkSign: evaluate if a number is zero, positive or negative
 function checkSign(num) {
     return (num === 0) ? "zero" : (num > 0) ? "positive" : "negative";
   }
