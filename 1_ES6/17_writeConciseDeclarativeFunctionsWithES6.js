@@ -5,7 +5,7 @@ const person = {
       return `Hello! My name is ${this.name}.`;
     }
   };
-//
+//in es6 you can remove the word functiom
 const person = {
     name: "Taylor",
     sayHello() {
