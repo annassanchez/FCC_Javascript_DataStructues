@@ -11,7 +11,9 @@ function greaterThanTen(arr) {
     return newArr;
   }
   
-  greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
+  greaterThanTen([2, 12, 8, 14, 80, 0, 1]); // returns [12, 14, 80]
+  //using a for loop, this function iterates through and accesses each element of the array, and subjects it to a simple test that we have created
+  //we have easily and programatically determined which data items are greater than 10
 //example: modify the given function, so that it returns the filtered version of the array and the ensted array with elem removed
 function filteredArray(arr, elem) {
     let newArr = [];
