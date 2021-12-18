@@ -15,3 +15,11 @@ blueBird.color;
 blueBird.numLegs;
 //just like any other object, its properties can be accessed and modified
 //example: use the given constructor and add a new instance to it, assigning it to a variable hound
+function Dog() {
+    this.name = "Rupert";
+    this.color = "brown";
+    this.numLegs = 4;
+  }
+  // Only change code below this line
+  let hound = new Dog()
+  hound.species = "hound";
