@@ -17,7 +17,6 @@ Bird.prototype.fly = function() {
 let duck = new Bird();
 duck.eat(); // displays "nom nom nom" in the console
 duck.fly(); // displays "I'm flying"
-
 //example: add all necessary code so the Dog object inherits from Animal and the Dog's prototype constructor is set to Dog
 //then add a bark() mehtod to the Dog object so taht beagle can both eat() and bark()
 function Animal() { }
