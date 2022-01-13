@@ -1,3 +1,5 @@
+//convert the given numelar into a roman number
+//ll roman numerals should be provided in upper-case
 function convertToRoman(num) {
     if (typeof num !== 'number') 
         return false; 
